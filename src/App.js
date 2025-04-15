@@ -3,7 +3,7 @@ import './App.css';
 
 function App() {
   const [users, setUsers] = useState([]);
-  const [searchTerm, setSearchTerm] = useState('');
+  const [searchTerm, setSearchTerm] = useState(null);
   const [editingUser, setEditingUser] = useState(null);
   const [deleteDialog, setDeleteDialog] = useState(null);
 
